@@ -42,7 +42,7 @@ export default function MultilineTextFields() {
 					label="Data File"
 					multiline
 					rows={8}
-					defaultValue="Default Value"
+					defaultValue="Paste your data here"
 					variant="outlined"
 				/>
 			</div>
@@ -50,15 +50,15 @@ export default function MultilineTextFields() {
 				<TextField
 					className={classes.inputParameters}
 					id="outlined-multiline-static"
-					label="Data File"
-					defaultValue="Default Value"
+					label="Input Field 1"
+					defaultValue="x"
 					variant="outlined"
 				/>
 				<TextField
 					className={classes.inputParameters}
 					id="outlined-multiline-static"
-					label="Data File"
-					defaultValue="Default Value"
+					label="Input Field 2"
+					defaultValue="y"
 					variant="outlined"
 				/>
 			</div>
